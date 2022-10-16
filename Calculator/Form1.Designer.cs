@@ -94,12 +94,13 @@
             // btcong
             // 
             this.btcong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btcong.Location = new System.Drawing.Point(421, 346);
+            this.btcong.Location = new System.Drawing.Point(131, 334);
             this.btcong.Name = "btcong";
             this.btcong.Size = new System.Drawing.Size(85, 36);
             this.btcong.TabIndex = 2;
             this.btcong.Text = "Cộng";
             this.btcong.UseVisualStyleBackColor = true;
+            this.btcong.Click += new System.EventHandler(this.btcong_Click);
             // 
             // Form1
             // 

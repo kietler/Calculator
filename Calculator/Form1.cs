@@ -16,5 +16,13 @@ namespace Calculator
         {
             InitializeComponent();
         }
+
+        private void btcong_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(txtsoa.Text);
+            double b = double.Parse(txtsob.Text);
+            double c = a + b;
+            txtkqua.Text = c.ToString();
+        }
     }
 }
