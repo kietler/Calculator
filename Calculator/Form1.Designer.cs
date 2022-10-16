@@ -35,6 +35,7 @@
             this.txtkqua = new System.Windows.Forms.TextBox();
             this.lbkqua = new System.Windows.Forms.Label();
             this.btcong = new System.Windows.Forms.Button();
+            this.bttru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtsoa
@@ -102,11 +103,23 @@
             this.btcong.UseVisualStyleBackColor = true;
             this.btcong.Click += new System.EventHandler(this.btcong_Click);
             // 
+            // bttru
+            // 
+            this.bttru.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttru.Location = new System.Drawing.Point(400, 334);
+            this.bttru.Name = "bttru";
+            this.bttru.Size = new System.Drawing.Size(85, 36);
+            this.bttru.TabIndex = 2;
+            this.bttru.Text = "Trừ";
+            this.bttru.UseVisualStyleBackColor = true;
+            this.bttru.Click += new System.EventHandler(this.bttru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(610, 493);
+            this.Controls.Add(this.bttru);
             this.Controls.Add(this.btcong);
             this.Controls.Add(this.lbkqua);
             this.Controls.Add(this.lbsob);
@@ -130,6 +143,7 @@
         private System.Windows.Forms.TextBox txtkqua;
         private System.Windows.Forms.Label lbkqua;
         private System.Windows.Forms.Button btcong;
+        private System.Windows.Forms.Button bttru;
     }
 }
 
